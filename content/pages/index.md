@@ -414,27 +414,6 @@ sections:
             textAlign: center
           title:
             textAlign: center
-      - quote: >
-          "It's great to see someone taking acion while still maintaining a
-          sustainable fish supply to home cooks."
-        name: Hugh Saturation
-        title: Creative at Acme
-        image:
-          type: ImageBlock
-          url: /images/hugh-saturation.jpg
-          altText: Photo of Johnna Doe
-        styles:
-          self:
-            margin:
-              - mt-0
-              - mb-0
-            flexDirection: col
-          quote:
-            textAlign: center
-          name:
-            textAlign: center
-          title:
-            textAlign: center
     styles:
       self:
         height: auto
