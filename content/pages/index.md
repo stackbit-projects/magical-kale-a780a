@@ -393,9 +393,7 @@ sections:
     title: Testimonials
     subtitle: What our customers say about us
     testimonials:
-      - quote: >
-          "I was absolutely mind blown by how efficient the team was, and how
-          smooth the entire process felt."
+      - quote: "\"This product blew our minds \U0001F92F\U0001F92F\U0001F92Four devs can finally give the marketing team the right tools for the job.\"\n"
         name: Johnna Doe
         title: Product Marketing Manager at Acme
         image:
