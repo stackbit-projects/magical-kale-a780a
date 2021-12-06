@@ -400,7 +400,6 @@ sections:
         title: Product Marketing Manager at Acme
         image:
           type: ImageBlock
-          url: /images/carla.jpg
           altText: Photo of Johnna Doe
         styles:
           self:
