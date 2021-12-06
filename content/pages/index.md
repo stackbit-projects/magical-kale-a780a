@@ -54,7 +54,8 @@ sections:
     colors: colors-f
     title: Where did everyone go?
     text: >
-      Learn how top tech companies have learned working remote using our product.
+      Learn how top tech companies have learned working remote using our
+      product.
     actions:
       - type: Button
         label: Sign Up
@@ -133,7 +134,7 @@ sections:
         caption: ZCOOL
     spacing: 3
     columns: 7
-    aspectRatio: 'auto'
+    aspectRatio: auto
     showCaption: false
     enableHover: false
     styles:
@@ -387,6 +388,71 @@ sections:
       actions:
         justifyContent: center
     type: FeaturedPostsSection
+  - elementId: ''
+    colors: colors-a
+    title: Testimonials
+    subtitle: What our customers say about us
+    testimonials:
+      - quote: >
+          "Very professional team. I loved working with the people at
+          startup.io."
+        name: Johnna Doe
+        title: Product Marketing Manager at Acme
+        image:
+          type: ImageBlock
+          url: /images/carla.jpg
+          altText: Photo of Johnna Doe
+        styles:
+          self:
+            margin:
+              - mt-0
+              - mb-0
+            flexDirection: col
+          quote:
+            textAlign: center
+          name:
+            textAlign: center
+          title:
+            textAlign: center
+      - quote: >
+          "It's great to see someone taking acion while still maintaining a
+          sustainable fish supply to home cooks."
+        name: Hugh Saturation
+        title: Creative at Acme
+        image:
+          type: ImageBlock
+          url: /images/hugh-saturation.jpg
+          altText: Photo of Johnna Doe
+        styles:
+          self:
+            margin:
+              - mt-0
+              - mb-0
+            flexDirection: col
+          quote:
+            textAlign: center
+          name:
+            textAlign: center
+          title:
+            textAlign: center
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-28
+          - pb-28
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+    type: TestimonialsSection
   - colors: colors-f
     elementId: ''
     title: Need Answers?
